@@ -1,0 +1,15 @@
+#ignore everything by default
+*
+#do not ignore images
+!images
+!images/*
+
+#do not ignore LICENSE and README
+!LICENSE
+!README.md
+!.gitignore
+
+#do not ignore kicad pcb files, schematic files, and project files
+!*.kicad_pcb
+!*.kicad_sch
+!*.kicad_pro
