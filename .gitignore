@@ -13,3 +13,5 @@
 !*.kicad_pcb
 !*.kicad_sch
 !*.kicad_pro
+!symbols/
+!symbols/*.kicad_sym
