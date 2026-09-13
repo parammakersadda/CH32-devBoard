@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "py32-devboard.kicad_pro",
+    "filename": "ch32-devboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -672,18 +672,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "py32-devboard.kicad_sch",
-        "name": "Root",
+        "filename": "ch32-devboard.kicad_sch",
+        "name": "ch32-devboard",
         "uuid": "4100db7a-d523-4b09-b3c1-238f0387dfea"
       }
     ],
-    "used_designators": "#PWR1,J2-3,J5,mcu1-2",
+    "used_designators": "#PWR2,#PWR6-7,R3-6,C1,D1-2",
     "variants": []
   },
   "sheets": [
     [
       "4100db7a-d523-4b09-b3c1-238f0387dfea",
-      "Root"
+      "ch32-devboard"
     ]
   ],
   "text_variables": {},
