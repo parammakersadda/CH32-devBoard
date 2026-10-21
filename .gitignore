@@ -1,9 +1,5 @@
 #ignore everything by default
 *
-#do not ignore images
-!images
-!images/*
-
 #do not ignore LICENSE and README
 !LICENSE
 !README.md
@@ -15,3 +11,18 @@
 !*.kicad_pro
 !symbols/
 !symbols/*.kicad_sym
+
+#exports
+!exports/
+!exports/*
+!exports/gerbers/*
+
+!3dModels/
+!3dModels/*
+
+#do not ignore images
+!images
+!images/*
+
+!PDFs/
+!PDFs/*
