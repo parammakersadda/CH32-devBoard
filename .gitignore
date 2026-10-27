@@ -9,8 +9,13 @@
 !*.kicad_pcb
 !*.kicad_sch
 !*.kicad_pro
+
 !symbols/
 !symbols/*.kicad_sym
+
+!footprints/
+!footprints/CH32-devBoard.pretty/
+!footprints/CH32-devBoard.pretty/*.kicad_mod
 
 #exports
 !exports/
