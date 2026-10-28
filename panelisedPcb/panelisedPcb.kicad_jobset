@@ -7,8 +7,8 @@
         "command": "kikit panelize --layout 'grid; rows: 2; cols: 2; space: 2mm' --tabs 'fixed; width: 3mm' --cuts 'mousebites; drill: 0.5mm; spacing: 1mm; offset: 0.2mm' \"../ch32-devboard.kicad_pcb\" \"panelised-pcb.kicad_pcb\"",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "80be91e9-b078-4d85-aeb6-44dd699b38bf.log",
-        "record_output": true
+        "output_filename": "",
+        "record_output": false
       },
       "type": "special_execute"
     },
