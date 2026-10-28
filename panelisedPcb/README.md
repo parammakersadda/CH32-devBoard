@@ -24,8 +24,11 @@ The panelized PCB will be generated automatically.
 
 ## Images Example
 
+front
 ![front](images/panelisedPcb-front-3dModel.png)
+back
 ![back](images/panelisedPcb-back-3dModel.png)
+routing
 ![routing](images/panelisedPcb-routing.svg)
 
 ## Requirements
