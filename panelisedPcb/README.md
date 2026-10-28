@@ -12,7 +12,7 @@ Panelization is automated using **KiKit** through a **KiCad Jobset**.
 
 The panelized PCB will be generated automatically.
 
-## Panel Configuration
+## Example Panel Configuration
 
 - **Layout:** 3 × 3 (9 PCBs)
 - **Spacing:** 2 mm
