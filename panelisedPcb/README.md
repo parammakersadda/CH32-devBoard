@@ -22,6 +22,12 @@ The panelized PCB will be generated automatically.
 - **Mouse-bite hole spacing:** 1 mm
 - **Mouse-bite offset:** 0.2 mm
 
+## Images Example
+
+![front](images/panelisedPcb-front-3dModel.png)
+![back](images/panelisedPcb-back-3dModel.png)
+![routing](images/panelisedPcb-routing.svg)
+
 ## Requirements
 
 - KiCad
