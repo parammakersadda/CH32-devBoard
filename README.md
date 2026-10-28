@@ -12,18 +12,12 @@ See the `LICENSE` file for the full license text.
 
 ## Images
 
-[PCB routing](PDFs/CH32-devBoard-board.pdf)  
-![pcb layout](images/CH32-devBoard-routing.svg)
+[PCB routing](PDFs/pcb-routing.pdf)  
+![pcb layout](images/ch32-devboard-B_Cu.svg)
 
-
-[Schematic](PDFs/CH32-devBoard-schematic.pdf)
+[Schematic](PDFs/ch32-devboard.pdf)
 ![PCB schematic](images/ch32-devboard.svg)
 
-[3d rendering](3dModels/CH32-devBoard.stl)
-![pcb-front-3dView](images/CH32-devBoard-front-3dModel.png)
-![pcb-back-3dView](images/CH32-devBoard-back-3dModel.png)
-
-> Note for development:  
-> The "makefile" can be used to automatically update/genarate the exports, PDFs, images and 3d Models as the Kicad files change.  
-> It uses kicad-cli to genarate the resources.
-
+[3d rendering](3dModels/3dModel.stl)
+![pcb-front-3dView](images/front.png)
+![pcb-back-3dView](images/back.png)
