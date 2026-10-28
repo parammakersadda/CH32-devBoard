@@ -9,6 +9,7 @@
 !*.kicad_pcb
 !*.kicad_sch
 !*.kicad_pro
+!*.kicad_jobset
 
 !symbols/
 !symbols/*.kicad_sym
