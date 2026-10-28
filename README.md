@@ -26,4 +26,4 @@ See the `LICENSE` file for the full license text.
 
 check `exports` folder for pcb export  
 
-check the `panelisedPcb` folder for panelised(multiple copies in a single board, for manufacturing purpose) pcb gerber export
+check the [`panelisedPcb`](panelisedPcb/) folder for panelised(multiple copies in a single board, for manufacturing purpose) pcb gerber export
