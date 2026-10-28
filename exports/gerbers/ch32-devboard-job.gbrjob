@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.7"
     },
-    "CreationDate": "2026-10-28T19:11:28+05:30"
+    "CreationDate": "2026-10-28T21:45:11+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 29.236,
-      "Y": 39.061
+      "Y": 39.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -41,16 +41,6 @@
     {
       "Path": "ch32-devboard-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-F_Adhesive.gta",
-      "FileFunction": "Glue,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-B_Adhesive.gba",
-      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -84,38 +74,8 @@
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ch32-devboard-User_Drawings.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-User_Comments.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-User_Eco1.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-User_Eco2.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "ch32-devboard-Edge_Cuts.gm1",
       "FileFunction": "Profile",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-F_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ch32-devboard-B_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
