@@ -21,3 +21,9 @@ See the `LICENSE` file for the full license text.
 [3d rendering](3dModels/3dModel.stl)
 ![pcb-front-3dView](images/front.png)
 ![pcb-back-3dView](images/back.png)
+
+## Exports
+
+check `exports` folder for pcb export  
+
+check the `panelisedPcb` folder for panelised(multiple copies in a single board, for manufacturing purpose) pcb gerber export
