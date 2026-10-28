@@ -23,6 +23,9 @@
 !exports/*
 !exports/gerbers/*
 
+!panelisedPcb/
+!panelisedPcb/*
+
 !3dModels/
 !3dModels/*
 

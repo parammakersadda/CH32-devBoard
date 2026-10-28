@@ -1,0 +1,35 @@
+#ignore everything by default
+*
+#do not ignore LICENSE and README
+!LICENSE
+!README.md
+!.gitignore
+
+#do not ignore kicad pcb files, schematic files, and project files
+!*.kicad_pcb
+!*.kicad_sch
+!*.kicad_pro
+!*.kicad_jobset
+!*.kicad_dru
+
+!symbols/
+!symbols/*.kicad_sym
+
+!footprints/
+!footprints/CH32-devBoard.pretty/
+!footprints/CH32-devBoard.pretty/*.kicad_mod
+
+#exports
+!exports/
+!exports/*
+!exports/gerbers/*
+
+!3dModels/
+!3dModels/*
+
+#do not ignore images
+!images
+!images/*
+
+!PDFs/
+!PDFs/*

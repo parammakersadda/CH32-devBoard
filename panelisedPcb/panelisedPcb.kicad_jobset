@@ -1,0 +1,146 @@
+{
+  "jobs": [
+    {
+      "description": "panelise pcb",
+      "id": "80be91e9-b078-4d85-aeb6-44dd699b38bf",
+      "settings": {
+        "command": "kikit panelize --layout 'grid; rows: 2; cols: 2; space: 2mm' --tabs 'fixed; width: 3mm' --cuts 'mousebites; drill: 0.5mm; spacing: 1mm; offset: 0.2mm' \"../ch32-devboard.kicad_pcb\" \"panelised-pcb.kicad_pcb\"",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "80be91e9-b078-4d85-aeb6-44dd699b38bf.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "53355b54-9968-47d3-9a09-3622d4cb08ae",
+      "settings": {
+        "black_and_white": true,
+        "check_zones": true,
+        "create_gerber_job_file": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": true,
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.SilkS",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu",
+          "F.Mask",
+          "F.SilkS",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 5,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false,
+        "use_protel_file_extension": true,
+        "use_x2_format": true,
+        "variant": ""
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "1e8df0b9-8a45-49ac-983f-36ed3db5e23e",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": true,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "excellon",
+        "generate_map": false,
+        "generate_report": false,
+        "generate_tenting": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "",
+        "report_filename": "",
+        "units": "in",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "export-gerbers",
+      "id": "01fc5915-288d-4e21-a137-d57c74137196",
+      "only": [],
+      "settings": {
+        "output_path": "/home/maker/pcb/CH32-devBoard/panelisedPcb/exports/gerbers/"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "gerbers archive",
+      "id": "31715e1f-09bd-47a3-9d28-ded474cc1967",
+      "only": [],
+      "settings": {
+        "format": "zip",
+        "output_path": "/home/maker/pcb/CH32-devBoard/panelisedPcb/exports/panelised-pcb-gerbers.zip"
+      },
+      "type": "archive"
+    },
+    {
+      "description": "panelise",
+      "id": "37d044db-85ee-44ed-b795-3a194f14ae7a",
+      "only": [
+        "80be91e9-b078-4d85-aeb6-44dd699b38bf"
+      ],
+      "settings": {
+        "output_path": "/home/maker/pcb/CH32-devBoard/panelisedPcb/"
+      },
+      "type": "folder"
+    }
+  ]
+}
